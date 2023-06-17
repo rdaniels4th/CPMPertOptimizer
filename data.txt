@@ -1,0 +1,9 @@
+Activity	Time	Predecessor(s)
+A	6	-
+B	8	-
+C	3	A
+D	2	A
+E	4	B
+F	5	B
+G	9	"C, E"
+H	7	"D, F"
