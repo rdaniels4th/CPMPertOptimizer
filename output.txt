@@ -1,0 +1,8 @@
+name	duration	dependencies	ES	EF	LS	LF	Float	isCritical
+A	4	[-1]	0	4	15	19	15	False
+B	3	[-1]	0	3	7	10	7	False
+C	10	[-1]	0	10	0	10	0	True
+D	7	['B', 'C']	10	17	10	17	0	True
+E	1	['D']	17	18	17	18	0	True
+F	1	['E']	18	19	18	19	0	True
+G	5	['A', 'F']	19	24	19	24	0	True
